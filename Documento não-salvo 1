@@ -2,9 +2,13 @@
 #include <stdio.h>
 
 int main() {
-   int idade;
-   printf("Entre com sua idade: ");
-   scanf("%d" , &idade);
-   printf ("Voce tem %d anos \n" , idade);
+    //imprime cabecalho do nosso jogo
+    printf("*******************************************\n");
+    printf("* Bem-vindo ao nosso jogo de a adivinhaçao*\n");
+    printf("*******************************************\n");
+    
+    int numerosecreto = 42;
+    int numerosecreto = 100;
+    printf("%d o  numero secreto. Nao conta pra ninguem!\n", numerosecreto);
     return 0;
 }
